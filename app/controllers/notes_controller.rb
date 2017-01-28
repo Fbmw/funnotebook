@@ -7,6 +7,7 @@ class NotesController < ApplicationController
 	end
 
 	def show
+		
 	end
 
 	def new

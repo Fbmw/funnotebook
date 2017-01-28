@@ -1,5 +1,5 @@
 #banner {
-	background-image: url(image_path("welcome_banner_image.jpg"));
+	background-image: url(image_path("welcome-background.png"));
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: top center;
@@ -24,7 +24,7 @@
 	}
 }
 
-#testimonial {
+#quotation {
 	text-align: center;
 	font-size: 1.5rem;
 	color: #afb0b0;
@@ -40,8 +40,8 @@
 	}
 }
 
-#callouts {
-	background-image: url(image_path("callout_background.jpg"));
+#sampleNotes {
+	background-image: url(image_path("notes-background.png"));
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: top center;
@@ -52,18 +52,21 @@
 		display: table-cell;
 		vertical-align: middle;
 	}
-	.callout {
+	.noting {
 		text-align: center;
 		width: 33.3333%;
 		padding: 1.5rem 2.5%;
 		float: left;
+		margin-left:7em;
+
+
 		h2 {
 			@include bold_font;
 			color: white;
 			margin-bottom: 0;
 		}
 		p {
-			color: rgba(250, 250, 250, 0.4);
+			color: rgba(250, 250, 250, 5);
 		}
 	}
 }

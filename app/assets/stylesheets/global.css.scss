@@ -1,6 +1,9 @@
 $dark_gray: #2B2E2E;
 $light_gray: #C0C1C1;
 $green: #33CD99;
+$orange:#cd8a26;
+$grayish:#c8c7cd;
+$neoGreen:#09cd13;
 
 @mixin bold_font {
 	font-family: "Brandon Grotesque","Helvetica Neue", Helvetica, sans-serif;
@@ -41,7 +44,7 @@ body {
 button, .button {
 	border: none;
 	outline: none;
-	background: $green;
+	background: $orange;
 	padding: 1rem 3.5rem;
 	border-radius: 2rem;
 	a {
@@ -51,12 +54,12 @@ button, .button {
 }
 
 .button {
-	color: white;
+	color: #cd8a26;
 	margin: 2rem 0;
 }
 
 a {
-	color: $green;
+	color: $orange;
 	text-decoration: none;
 	&:hover {
 		color: $dark_gray;
@@ -69,25 +72,28 @@ header {
 	top: 0;
 	width: 100%;
 	padding: 1.75rem 0;
-	border-bottom: 7px solid $green;
+	border-bottom: 7px solid $grayish;
 	.header_inner {
 		width: 90%;
 		margin: 0 auto;
 		#logo {
 			display: inline-block;
-			width: 10rem;
+			width: 100px;
 			float: left;
 		}
 		nav {
 			float: right;
 			a {
+				border-style: solid;
+				border-radius: 5px;
+				border-width: 1px;
 				text-decoration: none;
-				color: white;
+				color: $orange;
 				font-size: 1.1rem;
 				line-height: 1.5;
 				margin-left: 1rem;
 				&:hover {
-					color: $green;
+					color: $neoGreen;
 				}
 			}
 		}
@@ -97,10 +103,15 @@ header {
 footer {
 	background: $dark_gray;
 	width: 100%;
-	padding: 2rem 0;
+
 	color: white;
 	text-align: center;
 	@include bold_font;
+
+		#personalLogo{
+		width:80px;
+		height:68px;
+		}
 	p {
 		margin: 0;
 		font-size: .85rem;

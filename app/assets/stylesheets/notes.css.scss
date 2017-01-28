@@ -1,12 +1,17 @@
+
+$orange:#cd8a26;
+
+
 #notes {
 	.note {
-		background: $dark_gray;
+		background: rgba(186, 186, 10, 0.73);
 		width: 30%;
 		min-height: 150px;
 		margin: 1rem 1%;
 		padding: 1.5rem 2.5%;
 		float: left;
 		border-radius: .4rem;
+		border-style:solid;
 		position: relative;
 		.title {
 			@include bold_font;
@@ -18,7 +23,7 @@
 			position: absolute;
 			bottom: .25rem;
 			left: 8.5%;
-			color: $green;
+			color: rgba(59, 129, 183, 0.94);
 			font-size: .85rem;
 		}
 	}
@@ -42,8 +47,8 @@
 			padding: .5rem 2rem;
 			border-radius: 2rem;
 			text-decoration: none;
-			color: $green;
-			border: 5px solid #E9E9E9;
+			color: $orange;
+			border: 5px solid #13e9be;
 			@include bold_font;
 			background: transparent;
 		}

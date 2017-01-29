@@ -71,17 +71,26 @@ header {
 	position: fixed;
 	top: 0;
 	width: 100%;
-	padding: 1.75rem 0;
-	border-bottom: 7px solid $grayish;
+	padding: -1em 0;
+	//border-bottom: 7px solid $grayish;
+
+	
 	.header_inner {
 		width: 90%;
 		margin: 0 auto;
-		#logo {
-			display: inline-block;
-			width: 100px;
-			float: left;
-		}
+		
+			#personalLogo{
+		
+			
+				img{
+					width:80px;
+					margin-left:46%;
+	
+					}
+			}
+		
 		nav {
+			padding-top:1.2em;
 			float: right;
 			a {
 				border-style: solid;
@@ -103,15 +112,10 @@ header {
 footer {
 	background: $dark_gray;
 	width: 100%;
-
 	color: white;
 	text-align: center;
 	@include bold_font;
 
-		#personalLogo{
-		width:80px;
-		height:68px;
-		}
 	p {
 		margin: 0;
 		font-size: .85rem;

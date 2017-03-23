@@ -39,6 +39,16 @@
 		margin: 0;
 		font-size: .85rem;
 	}
+	.circle{
+		background: #fb3;
+		width: 210px;
+		height: 210px;
+		position: absolute;
+		margin-top: 3em;
+		margin-left: 1.5em;
+		border-radius: 100%;
+		box-shadow: 0 0 1em .1em;
+	}
 }
 
 /*

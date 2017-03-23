@@ -22,7 +22,7 @@ body {
 }
 
 .wrapper {
-	width: 80%;
+	width: 50%;
 	margin: 0 auto;
 }
 
@@ -40,6 +40,7 @@ body {
 .clearfix:after {
 	clear: both;
 }
+
 
 button, .button {
 	border: none;
@@ -74,21 +75,21 @@ header {
 	padding: -1em 0;
 	//border-bottom: 7px solid $grayish;
 
-	
+
 	.header_inner {
 		width: 90%;
 		margin: 0 auto;
-		
+
 			#personalLogo{
-		
-			
+
+
 				img{
 					width:80px;
 					margin-left:46%;
-	
+
 					}
 			}
-		
+
 		nav {
 			padding-top:1.2em;
 			float: right;

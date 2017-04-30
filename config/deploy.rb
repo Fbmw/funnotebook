@@ -19,6 +19,7 @@ namespace :deploy do
  end
 end
 
+
 after :publishing, :restart
 # Default value for :format is :airbrussh.
 # set :format, :airbrussh
@@ -41,3 +42,4 @@ after :publishing, :restart
 
 # Default value for keep_releases is 5
 # set :keep_releases, 5
+end

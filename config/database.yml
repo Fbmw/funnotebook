@@ -9,27 +9,28 @@
   #pool: 5
   #timeout: 5000
 
-  development:
-    adapter: postgresql
-    database: notes
-    username: postgres
-    password: bmw
-    pool: 5
-    timeout: 5000
-
-  test:
-    adapter: postgresql
-    database: notes
-    username: postgres
-    password: bmw
-    pool: 5
-    timeout: 5000
+  # development:
+  #   adapter: postgresql
+  #   database: notes
+  #   username: postgres
+  #   password: bmw
+  #   pool: 5
+  #   timeout: 5000
+  #
+  # test:
+  #   adapter: postgresql
+  #   database: notes
+  #   username: postgres
+  #   password: bmw
+  #   pool: 5
+  #   timeout: 5000
 
   production:
     adapter: postgresql
+    encoding: unicode
     database: notes
-    username: postgres
-    password: bmw
+    username: ubuntu
+    password: 
     pool: 5
     timeout: 5000
 

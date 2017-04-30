@@ -63,5 +63,5 @@
 server 'ec2-34-209-27-220.us-west-2.compute.amazonaws.com',
 user: 'ubuntu', roles: %w{web app db}
 
-set :ssh_options, { keys: '/Users/franklin/fbmwrails.pem '
+set :ssh_options, { keys: '/Users/franklin/fbmwrails.pem'
 }

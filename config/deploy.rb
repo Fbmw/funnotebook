@@ -2,7 +2,7 @@
 lock "3.7.2"
 
 set :application, "funnotes"
-set :repo_url, "https://github.com/Fbmw/funnotes.git"
+set :repo_url, "https://github.com/Fbmw/funnotebook.git"
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp

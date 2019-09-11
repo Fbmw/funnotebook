@@ -48,4 +48,4 @@ end
 
 gem 'haml', '~> 4.0.7'
 gem 'simple_form', '~> 3.2.1'
-gem 'devise', '~> 3.5.6'
+gem 'devise', '~> 4.7.1'
